@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657209450528' stop='1657209468350'>
+    <name>Sample Live Test Scenario: test login</name>
+    <title>Sample Live Test Scenario: test login</title>
+    <test-cases>
+        <test-case start='1657209450529' status='passed' stop='1657209450533'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657209450533' status='passed' stop='1657209463361'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657209463362' status='passed' stop='1657209467872'>
+            <name>When I login with existing user</name>
+            <title>When I login with existing user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657209467872' status='failed' stop='1657209468346'>
+            <name>Then I should see a welcome message</name>
+            <title>Then I should see a welcome message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7d3c2e66-f1fa-4b9b-9ecd-1c755ddc46f4-attachment.png' type='image/png' size='77576'/>
+            </attachments>
+            <failure>
+                <message>AssertionError [ERR_ASSERTION]: UserName Name NOT matched</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: UserName Name NOT matched
+                    + expected - actual
+                
+                    -CapGeminiUse
+                    +CapGeminiUser
+                
+                    at World.&lt;anonymous> (E:\Automation\Webdriverio_Task\stepDefination\login.js:32:8)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657209468346' status='passed' stop='1657209468348'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
