@@ -1,22 +1,28 @@
-const { Given, When,Then } = require('@cucumber/cucumber');
+const addcartPage = require('../pageobjects/addcart.page');
 
-var globalVariable="GlobalVaraible";
+const { Given, When, Then } = require('@cucumber/cucumber');
+const { addSyntheticTrailingComment } = require('typescript');
 
-Given(/^click on any product$/,async function(){
+
+const pages = {
+   Addcart: addcartPage
+}
+
+Given(/^click on any product$/,async function (){
 //click on home buttton
-await browser.$('//*[@class="active menu_home"]').click();
 
+await addcartPage.clickhombutton();
 
    });
    
 When(/^selected on product$/, async function(){
 //click on first product on the page
-await browser.$('(//*[@class="prdocutname"])[1]').click();
+await addcartPage.clickonProduct();
 
 });
 
 Then (/^Add that product into cart$/,async function(){
 //click on cart button 
-await browser.$('//*[@class="cart"]').click();
+await addcartPage.clickonAddtoCart();
 
 });

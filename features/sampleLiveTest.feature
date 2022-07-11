@@ -4,9 +4,12 @@ Feature:  Sample Live Test Scenario
 
 Scenario: test login
     Given I am on the login page
-    When I login with existing user
-    Then I should see a welcome message 
-
+    When  I login with <username> and <password>
+    Then I should see a welcome message
+ Examples:
+      |username| password |
+      |test68681|test12345|
+      
 Scenario: add the product into the cart
     Given click on any product
     When selected on product
