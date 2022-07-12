@@ -1,6 +1,6 @@
-*************Read Me*****************
+           *************Read Me*****************
 
-This project is combination of WebdriverIo with cucumber
+    This project is combination of WebdriverIo with cucumber
 
  
 
@@ -12,7 +12,7 @@ How to Run.
 
 2) Now paste the below command in terminal which is available on bottom of the window
 
-"npm run wdio"
+   "npm run wdio"
 
 
 If you see below error when you hit the above command  "npm run wdio"
