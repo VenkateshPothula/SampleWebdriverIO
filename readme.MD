@@ -2,15 +2,7 @@
 
 This project is combination of WebdriverIo with cucumber
 
- To Create new test case : 
-
-1)-Go to features folder  and create your own feature file as per the existing sampleLivetest.feature file
-
-2) Go to stepDefination folder and create your own js file that as per existing one.
-
-Note: as per the GIVEN WHEN, and Then write the methods name in steps defination otherwise cases wont run.
-
----------------
+ 
 
 How to Run. 
 
@@ -18,7 +10,7 @@ How to Run.
 
 1) To  run the cases right click on prject folder and select open integrated terminal 
 
-2) Now past the below command in terminal which is available on bottom of the window
+2) Now paste the below command in terminal which is available on bottom of the window
 
 "npm run wdio"
 
@@ -42,6 +34,8 @@ Now run again below  command
 Now you will see execution status  in terminal window when it get started.
 
 -----------------------------------------------------------------------
+
+
 
 How to check the Reports :
 
